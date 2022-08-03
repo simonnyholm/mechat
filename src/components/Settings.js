@@ -1,7 +1,9 @@
-import { ThemeContext } from "./contexts/ThemeContext";
+import { ThemeContext } from "../contexts/ThemeContext.js";
 import { useState } from "react";
 
 const Settings = () => {
+  const { theme } = useContext(ThemeContext);
+
   const [theme, setTheme] = useState({
     darkMode: false,
     light: "#fff",
@@ -14,7 +16,6 @@ const Settings = () => {
       <section>
         <h2>Mørkt eller lyst tema</h2>
         <button
-          css={styles.themeButton}
           onClick={() => {
             setTheme({ darkMode: !theme.darkMode });
             console.log(theme);
