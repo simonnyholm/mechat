@@ -1,0 +1,22 @@
+{
+    "products": [
+        {   
+            "title": "Hamburger",
+            "store": "Restaurant Yummy",
+            "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+            "price": "130",
+            "id": "100"
+
+        },
+        {   
+            "title": "Cheeseburger",
+            "store": "Restaurant Yummy",
+            "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+            "price": "135",
+            "id": "101"
+
+        }
+   
+
+    ]
+}
