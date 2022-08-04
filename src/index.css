@@ -1,4 +1,16 @@
 body {
   margin: 0;
+
   font-family: sans-serif;
+  color: #111;
+  height: 3vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.dark-mode {
+  color: #fff;
+  background-color: #111;
 }
