@@ -8,7 +8,7 @@ import Chat from "./components/Chat";
 import Donotclick from "./components/Donotclick";
 import Food from "./components/Food";
 import Search from "./components/Search";
-import Settings from "./components/Settings";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,7 +21,6 @@ root.render(
           <Route path="/chat" element={<Chat />} />
           <Route path="/food" element={<Food />} />
           <Route path="/search" element={<Search />} />
-          <Route path="/settings" element={<Settings />} />
         </Route>
       </Routes>
     </BrowserRouter>
