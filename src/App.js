@@ -18,11 +18,12 @@ function App() {
 
   const styles = {
     main: css`
-      margin-left: 36%;
+      margin-left: 320px;
+      padding: 40px 0 0 0;
     `,
     darkModeWrapper: css`
-      height: 100%;
-      margin: 0;
+      height: 3000px;
+      margin: -30px 0 0 0;
     `,
   };
 
@@ -32,24 +33,22 @@ function App() {
         css={styles.darkModeWrapper}
         className={theme.darkMode ? "dark-mode" : ""}
       >
-        <div className="page">
-          <header className="header">
-            <Nav />
-          </header>
-          <main css={styles.main} className="content">
-            <Outlet />
-            <Footer />
-            <button
-              onClick={() => {
-                setTheme({ darkMode: !theme.darkMode });
-                console.log(theme);
-              }}
-            >
-              Skift farvetema
-            </button>
-            <p>55381956</p>
-          </main>
-        </div>
+        <header className="header">
+          <Nav />
+        </header>
+        <main css={styles.main} className="content">
+          <Outlet />
+          <Footer />
+          <button
+            onClick={() => {
+              setTheme({ darkMode: !theme.darkMode });
+              console.log(theme);
+            }}
+          >
+            Skift farvetema
+          </button>
+          <p>55381956</p>
+        </main>
       </div>
     </ThemeContext.Provider>
   );
