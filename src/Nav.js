@@ -15,9 +15,6 @@ const Nav = () => {
     `,
     menu: css`
       display: block;
-      justify-content: space-around;
-
-      padding: 30px 0 0 0;
 
       & a {
         text-decoration: none;
@@ -33,29 +30,49 @@ const Nav = () => {
     `,
     headerDiv: css`
       position: fixed;
-      background-color: #b1d0e7;
+
       top: 0;
       bottom: 0;
+      border-right: 4px solid ${theme.darkMode ? "#fff" : "#111"};
     `,
     logoImg: css`
       width: 200px;
+    `,
+    logoDiv: css`
+      padding: 20px;
+      background-color: rgb(0, 151, 18);
+      border-bottom: 4px solid ${theme.darkMode ? "#fff" : "#111"};
+    `,
+    navDiv: css`
+      border-bottom: 4px solid ${theme.darkMode ? "#fff" : "#111"};
+      padding: 10px;
     `,
   };
 
   return (
     <div>
       <nav css={styles.headerDiv}>
-        <div>
+        <div css={styles.logoDiv}>
           <Link to="/">
             <img css={styles.logoImg} src={logo} alt="" />
           </Link>
         </div>
         <div css={styles.menu} className="menu">
-          <Link to="/search">Søg</Link>
-          <Link to="/chat">Chat</Link>
-          <Link to="/food">Mad</Link>
-          <Link to="#settings">Indstillinger</Link>
-          <Link to="/donotclick">Tryk ikke her!</Link>
+          <div css={styles.navDiv}>
+            <Link to="/search">Søg</Link>
+          </div>
+          <div css={styles.navDiv}>
+            <Link to="/chat">Chat</Link>
+          </div>
+          <div css={styles.navDiv}>
+            <Link to="/food">Mad</Link>
+          </div>
+          <div css={styles.navDiv}>
+            <Link to="#settings">Indstillinger</Link>
+          </div>
+          <div css={styles.navDiv}>
+            <Link to="/donotclick">Tryk ikke her!</Link>
+          </div>
         </div>
       </nav>
     </div>
