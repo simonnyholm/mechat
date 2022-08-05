@@ -26,6 +26,10 @@ const Nav = () => {
 
       & a:hover {
         text-decoration: underline;
+
+        & div:hover {
+          background-color: rgb(0, 151, 18);
+        }
       }
     `,
     headerDiv: css`
@@ -58,21 +62,25 @@ const Nav = () => {
           </Link>
         </div>
         <div css={styles.menu} className="menu">
-          <div css={styles.navDiv}>
-            <Link to="/search">Søg</Link>
-          </div>
-          <div css={styles.navDiv}>
-            <Link to="/chat">Chat</Link>
-          </div>
-          <div css={styles.navDiv}>
-            <Link to="/food">Mad</Link>
-          </div>
-          <div css={styles.navDiv}>
-            <Link to="#settings">Indstillinger</Link>
-          </div>
-          <div css={styles.navDiv}>
-            <Link to="/donotclick">Tryk ikke her!</Link>
-          </div>
+          <Link to="/search">
+            <div css={styles.navDiv}>Søg</div>
+          </Link>
+
+          <Link to="/chat">
+            <div css={styles.navDiv}>Chat</div>
+          </Link>
+
+          <Link to="/food">
+            <div css={styles.navDiv}>Mad</div>
+          </Link>
+
+          <Link to="#settings">
+            <div css={styles.navDiv}>Indstillinger</div>
+          </Link>
+
+          <Link to="/donotclick">
+            <div css={styles.navDiv}>Tryk ikke her!</div>
+          </Link>
         </div>
       </nav>
     </div>
