@@ -1,23 +1,131 @@
 {
-    "products": [
-        {   
-            "title": "Hamburger",
-            "store": "McRonald's",
-            "image": "../img/100.png",
-            "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
-            "price": "130",
-            "id": "100"
+  "mcronalds": [
+    {
+      "title": "Hamburger",
+      "store": "McRonald's",
+      "image": "../img/100.png",
+      "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+      "price": "50",
+      "id": "100"
+    },
+    {
+      "title": "Cheeseburger",
+      "store": "McRonald's",
+      "image": "../img/101.png",
+      "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+      "price": "60",
+      "id": "101"
+    },
+    {
+      "title": "Pommes",
+      "store": "McRonald's",
+      "image": "../img/102.png",
+      "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+      "price": "25",
+      "id": "102"
+    },
+    {
+      "title": "Chicken burger",
+      "store": "McRonald's",
+      "image": "../img/103.png",
+      "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+      "price": "45",
+      "id": "103"
+    }
+  ],
 
-        },
-        {   
-            "title": "Cheeseburger",
-            "store": "McRonald's",
-            "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
-            "price": "135",
-            "id": "101"
-
-        }
-   
-
-    ]
+  "linguini": [
+    {
+      "title": "Pasta bolognese",
+      "store": "Linguini",
+      "image": "../img/200.png",
+      "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+      "price": "55",
+      "id": "200"
+    },
+    {
+      "title": "Pasta carbonara",
+      "store": "Linguini",
+      "image": "../img/201.png",
+      "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+      "price": "60",
+      "id": "201"
+    },
+    {
+      "title": "Pizza vegetare",
+      "store": "Linguini",
+      "image": "../img/202.png",
+      "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+      "price": "65",
+      "id": "202"
+    },
+    {
+      "title": "Pizza pepperoni",
+      "store": "Linguini",
+      "image": "../img/203.png",
+      "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+      "price": "69",
+      "id": "203"
+    },
+    {
+      "title": "Pizza pepperoni bianca",
+      "store": "Linguini",
+      "image": "../img/204.png",
+      "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+      "price": "70",
+      "id": "204"
+    },
+    {
+      "title": "Pizza magarita",
+      "store": "Linguini",
+      "image": "../img/201.png",
+      "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+      "price": "45",
+      "id": "205"
+    },
+    {
+      "title": "Pizza magarita bianca",
+      "store": "Linguini",
+      "image": "../img/201.png",
+      "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+      "price": "50",
+      "id": "206"
+    }
+  ],
+  "bobsburritos": [
+    {
+      "title": "Hamburger",
+      "store": "Bob's",
+      "image": "../img/300.png",
+      "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+      "price": "300",
+      "id": "300"
+    },
+    {
+      "title": "Cheeseburger",
+      "store": "Bob's",
+      "image": "../img/301.png",
+      "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+      "price": "135",
+      "id": "301"
+    }
+  ],
+  "drinks": [
+    {
+      "title": "Hamburger",
+      "store": "Bob's",
+      "image": "../img/300.png",
+      "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+      "price": "300",
+      "id": "300"
+    },
+    {
+      "title": "Cheeseburger",
+      "store": "Bob's",
+      "image": "../img/301.png",
+      "desc": "Hey gang, in this full React tutorial series, I'll take you from novice to ninja. We'll cover all the basics - what React is, setting up, components & routing - before diving into state management, async code, built-in hooks & custom hooks too.",
+      "price": "135",
+      "id": "301"
+    }
+  ]
 }
