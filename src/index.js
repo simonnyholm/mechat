@@ -4,11 +4,11 @@ import "./index.css";
 import App from "./App";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Forside from "./components/Forside";
-import Chat from "./components/chat";
-import Donotclick from "./components/donotclick";
-import Food from "./components/food";
-import Search from "./components/search";
-import Settings from "./components/settings";
+import Chat from "./components/Chat";
+import Donotclick from "./components/Donotclick";
+import Food from "./components/Food";
+import Search from "./components/Search";
+import Settings from "./components/Settings";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
