@@ -8,11 +8,6 @@ import Chat from "./components/Chat";
 import Donotclick from "./components/Donotclick";
 import Food from "./components/Food";
 import Search from "./components/Search";
-<<<<<<< HEAD
-import Settings from "./components/Settings";
-=======
-
->>>>>>> 187acf5023fff9dc21ed98b1393713350e7e60ad
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
